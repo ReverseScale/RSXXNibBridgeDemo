@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34F658191F2845EA00297AF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F658181F2845EA00297AF4 /* main.m */; };
+		34F6581C1F2845EA00297AF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F6581B1F2845EA00297AF4 /* AppDelegate.m */; };
+		34F6581F1F2845EA00297AF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F6581E1F2845EA00297AF4 /* ViewController.m */; };
+		34F658221F2845EA00297AF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F658201F2845EA00297AF4 /* Main.storyboard */; };
+		34F658241F2845EA00297AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F658231F2845EA00297AF4 /* Assets.xcassets */; };
+		34F658271F2845EA00297AF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F658251F2845EA00297AF4 /* LaunchScreen.storyboard */; };
+		34F658321F2845EA00297AF4 /* RSXXNibBridgeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F658311F2845EA00297AF4 /* RSXXNibBridgeDemoTests.m */; };
+		34F6583D1F2845EA00297AF4 /* RSXXNibBridgeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F6583C1F2845EA00297AF4 /* RSXXNibBridgeDemoUITests.m */; };
+		34F6584F1F2847C600297AF4 /* XXNibBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F6584C1F2847C600297AF4 /* XXNibBridge.m */; };
+		34F658501F2847C600297AF4 /* XXNibConvention.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F6584E1F2847C600297AF4 /* XXNibConvention.m */; };
+		34F658531F2848B100297AF4 /* ChildViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F658521F2848B100297AF4 /* ChildViews.m */; };
+		34F658551F2848BB00297AF4 /* ChildViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34F658541F2848BB00297AF4 /* ChildViews.xib */; };
+		34F658581F2848F800297AF4 /* FatherViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F658571F2848F800297AF4 /* FatherViews.m */; };
+		34F6585A1F28490500297AF4 /* FatherViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34F658591F28490500297AF4 /* FatherViews.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34F6582E1F2845EA00297AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F6580C1F2845EA00297AF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F658131F2845EA00297AF4;
+			remoteInfo = RSXXNibBridgeDemo;
+		};
+		34F658391F2845EA00297AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F6580C1F2845EA00297AF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F658131F2845EA00297AF4;
+			remoteInfo = RSXXNibBridgeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34F658141F2845EA00297AF4 /* RSXXNibBridgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSXXNibBridgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F658181F2845EA00297AF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34F6581A1F2845EA00297AF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34F6581B1F2845EA00297AF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34F6581D1F2845EA00297AF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34F6581E1F2845EA00297AF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34F658211F2845EA00297AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34F658231F2845EA00297AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34F658261F2845EA00297AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34F658281F2845EA00297AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F6582D1F2845EA00297AF4 /* RSXXNibBridgeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSXXNibBridgeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F658311F2845EA00297AF4 /* RSXXNibBridgeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSXXNibBridgeDemoTests.m; sourceTree = "<group>"; };
+		34F658331F2845EA00297AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F658381F2845EA00297AF4 /* RSXXNibBridgeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSXXNibBridgeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F6583C1F2845EA00297AF4 /* RSXXNibBridgeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSXXNibBridgeDemoUITests.m; sourceTree = "<group>"; };
+		34F6583E1F2845EA00297AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F6584B1F2847C600297AF4 /* XXNibBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXNibBridge.h; sourceTree = "<group>"; };
+		34F6584C1F2847C600297AF4 /* XXNibBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXNibBridge.m; sourceTree = "<group>"; };
+		34F6584D1F2847C600297AF4 /* XXNibConvention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXNibConvention.h; sourceTree = "<group>"; };
+		34F6584E1F2847C600297AF4 /* XXNibConvention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXNibConvention.m; sourceTree = "<group>"; };
+		34F658511F2848B100297AF4 /* ChildViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViews.h; sourceTree = "<group>"; };
+		34F658521F2848B100297AF4 /* ChildViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViews.m; sourceTree = "<group>"; };
+		34F658541F2848BB00297AF4 /* ChildViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildViews.xib; sourceTree = "<group>"; };
+		34F658561F2848F800297AF4 /* FatherViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FatherViews.h; sourceTree = "<group>"; };
+		34F658571F2848F800297AF4 /* FatherViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FatherViews.m; sourceTree = "<group>"; };
+		34F658591F28490500297AF4 /* FatherViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FatherViews.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34F658111F2845EA00297AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F6582A1F2845EA00297AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F658351F2845EA00297AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34F6580B1F2845EA00297AF4 = {
+			isa = PBXGroup;
+			children = (
+				34F658161F2845EA00297AF4 /* RSXXNibBridgeDemo */,
+				34F658301F2845EA00297AF4 /* RSXXNibBridgeDemoTests */,
+				34F6583B1F2845EA00297AF4 /* RSXXNibBridgeDemoUITests */,
+				34F658151F2845EA00297AF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34F658151F2845EA00297AF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34F658141F2845EA00297AF4 /* RSXXNibBridgeDemo.app */,
+				34F6582D1F2845EA00297AF4 /* RSXXNibBridgeDemoTests.xctest */,
+				34F658381F2845EA00297AF4 /* RSXXNibBridgeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34F658161F2845EA00297AF4 /* RSXXNibBridgeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				34F6584A1F2847C600297AF4 /* XXNibBridge */,
+				34F6581A1F2845EA00297AF4 /* AppDelegate.h */,
+				34F6581B1F2845EA00297AF4 /* AppDelegate.m */,
+				34F6581D1F2845EA00297AF4 /* ViewController.h */,
+				34F6581E1F2845EA00297AF4 /* ViewController.m */,
+				34F658511F2848B100297AF4 /* ChildViews.h */,
+				34F658521F2848B100297AF4 /* ChildViews.m */,
+				34F658541F2848BB00297AF4 /* ChildViews.xib */,
+				34F658561F2848F800297AF4 /* FatherViews.h */,
+				34F658571F2848F800297AF4 /* FatherViews.m */,
+				34F658591F28490500297AF4 /* FatherViews.xib */,
+				34F658201F2845EA00297AF4 /* Main.storyboard */,
+				34F658231F2845EA00297AF4 /* Assets.xcassets */,
+				34F658251F2845EA00297AF4 /* LaunchScreen.storyboard */,
+				34F658281F2845EA00297AF4 /* Info.plist */,
+				34F658171F2845EA00297AF4 /* Supporting Files */,
+			);
+			path = RSXXNibBridgeDemo;
+			sourceTree = "<group>";
+		};
+		34F658171F2845EA00297AF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34F658181F2845EA00297AF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34F658301F2845EA00297AF4 /* RSXXNibBridgeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				34F658311F2845EA00297AF4 /* RSXXNibBridgeDemoTests.m */,
+				34F658331F2845EA00297AF4 /* Info.plist */,
+			);
+			path = RSXXNibBridgeDemoTests;
+			sourceTree = "<group>";
+		};
+		34F6583B1F2845EA00297AF4 /* RSXXNibBridgeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34F6583C1F2845EA00297AF4 /* RSXXNibBridgeDemoUITests.m */,
+				34F6583E1F2845EA00297AF4 /* Info.plist */,
+			);
+			path = RSXXNibBridgeDemoUITests;
+			sourceTree = "<group>";
+		};
+		34F6584A1F2847C600297AF4 /* XXNibBridge */ = {
+			isa = PBXGroup;
+			children = (
+				34F6584B1F2847C600297AF4 /* XXNibBridge.h */,
+				34F6584C1F2847C600297AF4 /* XXNibBridge.m */,
+				34F6584D1F2847C600297AF4 /* XXNibConvention.h */,
+				34F6584E1F2847C600297AF4 /* XXNibConvention.m */,
+			);
+			path = XXNibBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34F658131F2845EA00297AF4 /* RSXXNibBridgeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F658411F2845EA00297AF4 /* Build configuration list for PBXNativeTarget "RSXXNibBridgeDemo" */;
+			buildPhases = (
+				34F658101F2845EA00297AF4 /* Sources */,
+				34F658111F2845EA00297AF4 /* Frameworks */,
+				34F658121F2845EA00297AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSXXNibBridgeDemo;
+			productName = RSXXNibBridgeDemo;
+			productReference = 34F658141F2845EA00297AF4 /* RSXXNibBridgeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34F6582C1F2845EA00297AF4 /* RSXXNibBridgeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F658441F2845EA00297AF4 /* Build configuration list for PBXNativeTarget "RSXXNibBridgeDemoTests" */;
+			buildPhases = (
+				34F658291F2845EA00297AF4 /* Sources */,
+				34F6582A1F2845EA00297AF4 /* Frameworks */,
+				34F6582B1F2845EA00297AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F6582F1F2845EA00297AF4 /* PBXTargetDependency */,
+			);
+			name = RSXXNibBridgeDemoTests;
+			productName = RSXXNibBridgeDemoTests;
+			productReference = 34F6582D1F2845EA00297AF4 /* RSXXNibBridgeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34F658371F2845EA00297AF4 /* RSXXNibBridgeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F658471F2845EA00297AF4 /* Build configuration list for PBXNativeTarget "RSXXNibBridgeDemoUITests" */;
+			buildPhases = (
+				34F658341F2845EA00297AF4 /* Sources */,
+				34F658351F2845EA00297AF4 /* Frameworks */,
+				34F658361F2845EA00297AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F6583A1F2845EA00297AF4 /* PBXTargetDependency */,
+			);
+			name = RSXXNibBridgeDemoUITests;
+			productName = RSXXNibBridgeDemoUITests;
+			productReference = 34F658381F2845EA00297AF4 /* RSXXNibBridgeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34F6580C1F2845EA00297AF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					34F658131F2845EA00297AF4 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7QT42R489Z;
+						ProvisioningStyle = Automatic;
+					};
+					34F6582C1F2845EA00297AF4 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34F658131F2845EA00297AF4;
+					};
+					34F658371F2845EA00297AF4 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34F658131F2845EA00297AF4;
+					};
+				};
+			};
+			buildConfigurationList = 34F6580F1F2845EA00297AF4 /* Build configuration list for PBXProject "RSXXNibBridgeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34F6580B1F2845EA00297AF4;
+			productRefGroup = 34F658151F2845EA00297AF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34F658131F2845EA00297AF4 /* RSXXNibBridgeDemo */,
+				34F6582C1F2845EA00297AF4 /* RSXXNibBridgeDemoTests */,
+				34F658371F2845EA00297AF4 /* RSXXNibBridgeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34F658121F2845EA00297AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F658271F2845EA00297AF4 /* LaunchScreen.storyboard in Resources */,
+				34F658551F2848BB00297AF4 /* ChildViews.xib in Resources */,
+				34F658241F2845EA00297AF4 /* Assets.xcassets in Resources */,
+				34F658221F2845EA00297AF4 /* Main.storyboard in Resources */,
+				34F6585A1F28490500297AF4 /* FatherViews.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F6582B1F2845EA00297AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F658361F2845EA00297AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34F658101F2845EA00297AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F6581F1F2845EA00297AF4 /* ViewController.m in Sources */,
+				34F658531F2848B100297AF4 /* ChildViews.m in Sources */,
+				34F658581F2848F800297AF4 /* FatherViews.m in Sources */,
+				34F6581C1F2845EA00297AF4 /* AppDelegate.m in Sources */,
+				34F658501F2847C600297AF4 /* XXNibConvention.m in Sources */,
+				34F6584F1F2847C600297AF4 /* XXNibBridge.m in Sources */,
+				34F658191F2845EA00297AF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F658291F2845EA00297AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F658321F2845EA00297AF4 /* RSXXNibBridgeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F658341F2845EA00297AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F6583D1F2845EA00297AF4 /* RSXXNibBridgeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34F6582F1F2845EA00297AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F658131F2845EA00297AF4 /* RSXXNibBridgeDemo */;
+			targetProxy = 34F6582E1F2845EA00297AF4 /* PBXContainerItemProxy */;
+		};
+		34F6583A1F2845EA00297AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F658131F2845EA00297AF4 /* RSXXNibBridgeDemo */;
+			targetProxy = 34F658391F2845EA00297AF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34F658201F2845EA00297AF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F658211F2845EA00297AF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34F658251F2845EA00297AF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F658261F2845EA00297AF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34F6583F1F2845EA00297AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34F658401F2845EA00297AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34F658421F2845EA00297AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSXXNibBridgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSXXNibBridgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34F658431F2845EA00297AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSXXNibBridgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSXXNibBridgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34F658451F2845EA00297AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSXXNibBridgeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSXXNibBridgeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSXXNibBridgeDemo.app/RSXXNibBridgeDemo";
+			};
+			name = Debug;
+		};
+		34F658461F2845EA00297AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSXXNibBridgeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSXXNibBridgeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSXXNibBridgeDemo.app/RSXXNibBridgeDemo";
+			};
+			name = Release;
+		};
+		34F658481F2845EA00297AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSXXNibBridgeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSXXNibBridgeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSXXNibBridgeDemo;
+			};
+			name = Debug;
+		};
+		34F658491F2845EA00297AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSXXNibBridgeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSXXNibBridgeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSXXNibBridgeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34F6580F1F2845EA00297AF4 /* Build configuration list for PBXProject "RSXXNibBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F6583F1F2845EA00297AF4 /* Debug */,
+				34F658401F2845EA00297AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F658411F2845EA00297AF4 /* Build configuration list for PBXNativeTarget "RSXXNibBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F658421F2845EA00297AF4 /* Debug */,
+				34F658431F2845EA00297AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34F658441F2845EA00297AF4 /* Build configuration list for PBXNativeTarget "RSXXNibBridgeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F658451F2845EA00297AF4 /* Debug */,
+				34F658461F2845EA00297AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34F658471F2845EA00297AF4 /* Build configuration list for PBXNativeTarget "RSXXNibBridgeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F658481F2845EA00297AF4 /* Debug */,
+				34F658491F2845EA00297AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34F6580C1F2845EA00297AF4 /* Project object */;
+}
