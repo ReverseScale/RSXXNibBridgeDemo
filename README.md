@@ -3,12 +3,12 @@
 ![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Objective--C-orange.svg) ![](https://img.shields.io/badge/download-2MB-brightgreen.svg
 ) ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
-s之前有用过Swift版的TableView桥接视图工具，最近看到s试用了一下
+之前有用过Swift版的TableView桥接视图工具，最近看到sunnyxx的XXNibBridge工具，试用后把Demo上传。
 
-| 名称 |1.列表页 |2.展示页 |3.结果页 |
-| ------------- | ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/49394070.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/43197086.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/14637275.jpg) |
-| 描述 | 通过 storyboard 搭建基本框架 | 字典排列前 | 字典排列后 |
+| 名称 |1.列表页 |2.展示页 |
+| ------------- | ------------- | ------------- |
+| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-26/72398875.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-26/13447341.jpg) |
+| 描述 | 通过 storyboard 搭建基本框架 | 展示内容 | 
 
 
 ## Advantage 框架的优势
